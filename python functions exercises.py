@@ -14,13 +14,13 @@ def is_two(n):
         print("This is not a 2")
         return False
     
-is_two(input())
+#is_two(input())
 
 
 # In[ ]:
 
 
-is_two(5)
+#is_two(5)
 
 
 # # is vowel
@@ -37,7 +37,7 @@ def is_vowel(thing):
         print('Is not a vowel')
         return False
     
-is_vowel(input())
+#is_vowel(input())
 
 
 # # is consonant
@@ -74,13 +74,13 @@ print("where now")
 # In[ ]:
 
 
-check_conson('b')
+#check_conson('b')
 
 
 # In[ ]:
 
 
-check_conson('b')
+#check_conson('b')
 
 
 # # capitalize first letter if consonant
@@ -96,7 +96,7 @@ def cap_first(word):
 # In[ ]:
 
 
-cap_first('banna')
+#cap_first('banna')
 
 
 # In[ ]:
@@ -119,7 +119,7 @@ def calculate_tip(bill_amount, tip_percentage):
 # In[ ]:
 
 
-calculate_tip(100, .2)
+#calculate_tip(100, .2)
 
 
 # # apply discount
@@ -135,7 +135,7 @@ def apply_discount(original_price, discount_percentage):
 # In[ ]:
 
 
-apply_discount(100, 15)
+#apply_discount(100, 15)
 
 
 # # NEED TO COMPLETE handle commas
@@ -183,7 +183,7 @@ def get_letter_grade():
 # In[ ]:
 
 
-get_letter_grade()
+#get_letter_grade()
 
 
 # # Remove vowels
@@ -211,7 +211,7 @@ def remove_vowels(prestrip):
 # In[19]:
 
 
-remove_vowels('bird')
+##remove_vowels('bird')
 
 
 # # normalize name
@@ -232,13 +232,13 @@ def normalize_name(unnormal):
     else:
         print('Nope')
     
-normalize_name('Fred Douglas')
+#normalize_name('Fred Douglas')
 
 
 # In[50]:
 
 
-normalize_name('Fred Douglas')
+#normalize_name('Fred Douglas')
 
 
 # # cumulative sum
@@ -260,7 +260,7 @@ def cumulative_sum(to_sum):
 # In[37]:
 
 
-cumulative_sum([1,2,3,4])
+#cumulative_sum([1,2,3,4])
 
 
 # In[ ]:
